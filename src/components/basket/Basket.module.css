@@ -1,0 +1,24 @@
+.basket {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.basket__button {
+	position: relative;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 500;
+	padding: 10px 20px;
+	margin: 0;
+	margin-right: 10px;
+	width: 100px;
+	color: #fff;
+	background-color: #4056A1;
+	vertical-align: top;
+	white-space: nowrap;
+	z-index: 1;
+	border-radius: 90px;
+	border: none;
+	cursor: pointer;
+}

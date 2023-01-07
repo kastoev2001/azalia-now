@@ -1,0 +1,9 @@
+.product-card__title {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 100%;
+	margin-bottom: 5px;
+}

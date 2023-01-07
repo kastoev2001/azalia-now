@@ -1,0 +1,25 @@
+.product-card__popular {
+	font-size: 12px;
+	line-height: 14px;
+	position: absolute;
+	top: 30px;
+	right: 45px;
+	width: 50px;
+	height: 25px;
+	color: #fff;
+	background-color: #F23C30;
+	-webkit-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	transform: skewX(-30deg);
+	z-index: 1;
+}
+
+.product-card__popular::before {
+	content: "Хит";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%) skewX(30deg);
+	-ms-transform: translate(-50%, -50%) skewX(30deg);
+	transform: translate(-50%, -50%) skewX(30deg);
+}

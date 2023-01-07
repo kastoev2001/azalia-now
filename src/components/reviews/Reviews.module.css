@@ -1,0 +1,8 @@
+.product-card__reviews {
+  font-size: 12px;
+  line-height: 12px;
+  color: #999;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
